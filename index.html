@@ -1,30 +1,83 @@
 <html>
 <head>
-	<link rel ="stylesheet" href="web.css">
-	
     <title>Philippe Vollmuth's personal webpage</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header> 
-      <h1>Welcome to my website</h1>
+      <h1>Philippe Vollmuth</h1>
     	<nav>
-         <ul>
+         <ul class="nav-list">
             <li><a href="#web">Home</a></li>
-            <li><a href="#program">About</a></li>
-            <li><a href="#course">CV</a></li>
+            <li><a href="#research">Research</a></li>
+	    <li><a href="#miscellaneous">Miscellaneous</a></li>
+            <li><a href="#cv">CV</a></li>
+	    <li><a href="#contact">Contact</a></li>
          </ul>
     </nav>
   </header>
 
 <main>
-  <section>
+
+  <img src="glas2.jpg" alt="Glas" width="200" height="250" style="position:absolute; top:200px; right:30px;">
+  <section class="firstsection" id="web">
 	<h2>About</h2>
-	<p>I am a PhD student at the University of Copenhagen under the supervision of Robert Burklund and Jesper Grodal.</p>
+	<p>I am a PhD student at the University of Copenhagen under the supervision of Robert Burklund and Jesper Grodal.
+</p>
+  </section>
+
+  <section class="secondsection" id=research>
+   <h2>Research</h2>
+	My research interests lie in higher
+algebra and its applications to algebraic geometry, K-theory and motivic
+homotopy theory. <br>
+<ol>
+  <li><b>Preprint: Desingularization and local formality of rational E-∞-rings.</b> (Draft)<br>
+<i>Available upon request.</i><br>
+Eventhough I was mostly interested in rational applications, 
+    as a fun side-result I realized that A1-invariant K-theory <br>
+    KH: CAlg(Sp) -> Sp as a functor from (non-connective) 
+    E-∞-algebras over the sphere to spectra factors through a 1-category. <br>
+    <i>I plan on putting the paper on the arxiv within the next two weeks, 
+      after adding some applications to Balmer spectra, <br>Picard groups and absolute Galois groups.</i></li><br>
+    <li><b>M.Sc. Thesis: Cohomology of ∞-topoi with values in derived ∞-categories.</b> (Superv. <a href="https://www.agtz.mathematik.uni-mainz.de/prof-dr-markus-land/">Markus Land</a>, formerly at the LMU Munich.)<br>
+    <i>Available upon request.</i><br>
+    This was a good excuse to familiarize myself with the theory of ∞-topoi, sites and sheaves on topological spaces. 
+    I also proved a comparison result about singular- and sheaf cohomology of topological spaces, which was more general than anything available in the literature at the time. 
+    An (in my opinion much nicer) account of this result has since also appeared in section 3.3. of a <a href="https://arxiv.org/abs/2607.00236v1">paper by Land-Volpe</a>. </li><br>
+    <li><b>B.Sc. Thesis: A syntactical approach to symmetric forcing.</b> (Superv. <a href="https://www.math.lmu.de/%7Emerkl/">Franz Merkl</a>, LMU Munich)<br>
+    <i>Available upon request.</i><br>
+    I give a purely syntactical construction of Cohen's symmetric forcing model, 
+    which is used to prove the independence of the axiom of choice from ZF. 
+    The account is almost entirely self-contained and includes an explicit example of a vector space without a basis, 
+    as well as an infinite set with no countably infinite subset.
+    </li>
+</ol>
+
+  </section>
+
+  <section class="thirdsection" id=miscellaneous>
+   <h2>Miscellaneous</h2>
+  <ul>
+  <li><a href="Oléron_poster.pdf">I made a poster</a> about motives of non-connective rational E-infty-rings for the CATS8 conference in honour of Gabrielle Vezzosi's 60th birthday.</li><br>
+  <li><a href="Pro-spaces.pdf">Here's a note</a> motivated by a question of <a href="https://sites.google.com/view/fadi-mezher/home">Fadi Mezher</a>, I thought a little bit about pro-spaces. 
+    It didn't really lead anywhere except to the observation that the composition monoidal structure on pro-spaces is much better behaved than the cartesian one.</li><br>
+  <li><a href="Sing. vs. Sheaf Cohom..pdf">These are the slides</a> for a gong talk I gave at Ulrich Bunke's 60th birthday conference, presenting a result from my Master thesis.</li>
+</ul>
+  </section>
+
+  <section class="fourthsection" id=cv>
+   <h2>Curriculum Vitae</h2>
+  Here is my <a href="CV Philippe Vollmuth.pdf">CV</a>.
   </section>
 
   <section>
 	<h2>Contact</h2>
-	<p>Send me a mail at firstname dot lastname at proton dot me</p>
+	<p> <b>Email:</b> ph "dot" lastname "at" proton "dot" me<br>
+  <br>
+    <b>Adress:</b> Department of Mathematics at the University of Copenhagen, <br>
+  Universitetsparken 5, 2100 København Ø<br>
+  Office 04.4.3.</p><br>
   </section>
 </main>
 
